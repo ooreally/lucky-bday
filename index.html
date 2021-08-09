@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Is Your Birthday Lucky?</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main_container">
+        <h1>Is Your Birthday Lucky?</h1>
+        <div class="notice">
+            <p><strong>Privacy Notice!</strong>
+                We are not storing your data.&nbsp; 
+                <sup id="cancel">x</sup>
+            </p>
+        </div>
+        <div class="dob_area">
+            <label for="#dateOfBirth">Date Of Birth:</label>
+            <input type="date" id="dateOfBirth">
+        </div>
+       
+        <div class="lucky_area">
+            <label for="#luckyNumber">Lucky Number:</label>
+            <input type="number" id="luckyNumber">
+        </div>
+        <br>
+        <br>
+      
+            <button id="check_btn" type="button">Check</button>
+        
+        <div class="output_area">
+        <div id="output_text"></div>
+        <div id="output_image">
+            
+        </div>
+        </div>
+        <div id="error"></div>
+        <div class="foo">
+            <footer class="footer">
+                <ul class="social-links list-non-bullet">
+                    <li class="list-item-inline">
+                        <a class="link" href="https://github.com/ooreally">
+                            <img class="social" src="images/git.svg">
+                        </a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://twitter.com/anupam_s1">
+                            <img class="social" src="images/twitter.svg">
+                        </a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.linkedin.com/in/anupam-s1/">
+                            <img class="social" src="images/linkedin.svg">
+                        </a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.instagram.com/anupam_s1/">
+                            <img class="social" src="images/insta.svg">
+                        </a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://t.me/anu_spcl">
+                            <img class="social" src="images/telegram.svg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-header">© Anupam | 2021 | <span id="show_notice">Privacy Notice</span></div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
