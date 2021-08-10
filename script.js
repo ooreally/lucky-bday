@@ -63,7 +63,7 @@ cancelNotice.addEventListener("click", () => {
 });
 
 showNotice.addEventListener("click", () => {
-    noticeDiv.style.display = "block";
+    noticeDiv.style.display = "flex";
   });
 const showErrorMessage = (message) => {
   errDiv.style.display = " flex";
