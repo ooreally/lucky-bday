@@ -209,7 +209,7 @@
     padding : 0.35rem 0.35rem;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
   .main_container{
     padding: 1rem;
   }
@@ -217,5 +217,10 @@
   h1{
     font-size:3.5rem;
     margin:0.2rem;
+  }
+}
+@media screen and (max-width: 350px){
+  h1{
+    font-size:3rem;
   }
 }
